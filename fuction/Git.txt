@@ -1,0 +1,19 @@
+1 : *cd * : đến thư mục cần upload.
+2 : *git init* : tạo repository.
+3 : *git status* : mở track files.
+4 : *git add ... * : điền tên file trong thư mục được trỏ tới để upload.
+5 : *git commit -m "..."* : khỏi tạo commit để upload.
+6 : *git log* : để xem trạng thái.
+7 : *git remote add origin ...* : điền đường dẫn tới repository của github cần lưu -- Đối với lần đầu.
+8 : *git push -u origin master* : để đẩy file lên.
+9 : *git pull* : để lấy file - đồng bộ file.
+
+** git remote set-url origin ... ** : để thay đổi repository của git.
+
+** git branch ** : để kiểm tra các branch đang có.
+
+*** git clone URL *** : để tạo file clone từ url github.
+
+*** git remote -v *** : show các thông tin về remote.
+
+*** git remote remove origin *** : origin là tên repository được đặt, dùng để xóa repository hiện tại.
